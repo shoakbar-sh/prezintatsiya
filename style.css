@@ -1,0 +1,217 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.conteiner {
+   width: 1518px;
+   margin: 0 auto;
+}
+
+.corusel {
+   display: flex;
+   margin-top: 20px;
+   overflow-x: hidden;
+   position: relative;
+   margin-left: 350px;
+   width: 850px;
+}
+
+.corusel_list {
+   display: flex;
+   transition: all 0.5s ease;
+}
+
+.corusel-item {
+   width: 850px;
+   height: 600px;
+}
+
+.next {
+   background-color: rgba(0, 0, 0, 0.478);
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 810px;
+   color: white;
+   padding-top: 3px;
+   font-size: 30px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.next:active {
+   background-color: black;
+}
+
+.prev {
+   cursor: pointer;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 10px;
+   color: white;
+   padding-top: 3px;
+   font-size: 30px;
+   background-color: rgba(0, 0, 0, 0.455);
+   border-radius: 5px;
+}
+
+.prev:active {
+   background-color: black;
+}
+
+.flex h1 {
+   margin-top: 620px;
+   margin-left: 330px;
+   font-size: 42px;
+}
+
+.item {
+   position: absolute;
+}
+
+.buk {
+   position: absolute;
+   margin-top: 250px;
+   margin-left: 320px;
+   width: 500px;
+}
+
+.flex {
+   display: flex;
+   width: 850px;
+}
+
+.flex img {
+   width: 500px;
+   height: 350px;
+}
+
+.leo {
+   position: absolute;
+   margin-top: 620px;
+   font-size: 42px;
+   margin-left: -600px;
+   font-weight: 600;
+}
+
+.pi {
+   width: 700px;
+   margin-left: 70px;
+}
+
+.cap {
+   margin-left: 80px;
+}
+
+.great {
+   display: flex;
+}
+
+.great a {
+   margin-top: 630px;
+   margin-left: -480px;
+}
+
+.the {
+   position: absolute;
+   margin-top: 620px;
+   margin-left: 300px;
+   font-size: 42px;
+   font-weight: 600;
+}
+
+.will img {
+   height: 500px;
+}
+
+.will {
+   text-align: center;
+}
+
+.oskar h1 {
+   font-size: 42px;
+   font-weight: 600;
+   text-align: center;
+}
+
+.bad {
+   width: 850px;
+   display: flex;
+}
+
+.bad img {
+   width: 500px;
+   height: 350px;
+}
+
+.boy {
+   position: absolute;
+   margin-left: 350px;
+   margin-top: 260px;
+}
+
+.bad h1 {
+   margin-left: 70px;
+   margin-top: 100px;
+   font-size: 48px;
+   font-weight: 600;
+}
+
+.ali {
+   text-align: center;
+   display: flex;
+   width: 850px;
+}
+
+.ali img {
+   width: 400px;
+   height: 350px;
+   position: absolute;
+}
+
+.king {
+   margin-left: 30px;
+}
+
+.box {
+   margin-top: 300px;
+   margin-left: 200px;
+}
+
+.smit {
+   margin-left: 430px;
+}
+
+.ali h1 {
+   margin-top: 500px;
+   font-size: 42px;
+   font-weight: 600;
+   margin-left: 40px;
+   position: absolute;
+   color: rgb(255, 0, 0);
+}
+
+.ali h2 {
+   margin-top: 400px;
+   margin-left: 630px;
+   font-size: 42px;
+   font-weight: 600;
+}
+
+.legent{
+   width: 850px;
+}
+
+.legent img {
+   margin-left: 70px;
+   width: 700px;
+   height: 500px;
+}
+
+.legent h1 {
+   text-align: center;
+   font-size: 42px;
+   font-weight: 600;
+   
+}
