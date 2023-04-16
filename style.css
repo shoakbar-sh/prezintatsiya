@@ -201,17 +201,24 @@
 
 .legent{
    width: 850px;
-}
-
-.legent img {
-   margin-left: 70px;
-   width: 700px;
-   height: 500px;
+   display: flex;
 }
 
 .legent h1 {
-   text-align: center;
+   position: absolute;
+   margin-top: 560px;
+   margin-left: 330px;
    font-size: 42px;
-   font-weight: 600;
-   
+   font-weight: 600;  
+}
+
+.leg {
+   width: 800px;
+   height: 550px;
+   position: absolute;
+   margin-left: 25px;
+}
+
+.son {
+   margin-left: 850px;
 }
